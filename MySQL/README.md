@@ -35,5 +35,3 @@ Escrever consultas SQL eficazes para manipular e analisar dados.
 Otimizar bancos de dados para desempenho.
 
 Compreender e aplicar relacionamentos complexos entre tabelas.
-
-282219
