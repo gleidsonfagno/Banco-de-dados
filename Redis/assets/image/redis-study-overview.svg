@@ -1,0 +1,52 @@
+﻿<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .box { fill: #f7f4ef; stroke: #7a5c3f; stroke-width: 2; }
+      .accent { fill: #ffd9a1; stroke: #7a5c3f; stroke-width: 2; }
+      .title { font: 700 26px 'Georgia', serif; fill: #3b2f23; }
+      .text { font: 16px 'Georgia', serif; fill: #3b2f23; }
+      .small { font: 14px 'Georgia', serif; fill: #3b2f23; }
+      .arrow { stroke: #7a5c3f; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#7a5c3f" />
+    </marker>
+  </defs>
+
+  <rect x="40" y="40" width="1120" height="440" rx="18" class="box" />
+
+  <text x="80" y="85" class="title">Mapa de Estudos — Redis (Visão Geral)</text>
+
+  <rect x="90" y="130" width="250" height="90" rx="12" class="accent" />
+  <text x="120" y="165" class="text">Clientes</text>
+  <text x="120" y="190" class="small">Apps, APIs, Jobs</text>
+
+  <rect x="435" y="120" width="330" height="120" rx="12" class="box" />
+  <text x="465" y="160" class="text">Redis Core</text>
+  <text x="465" y="185" class="small">Dados em memória</text>
+  <text x="465" y="210" class="small">Estruturas & comandos</text>
+
+  <rect x="860" y="130" width="250" height="90" rx="12" class="accent" />
+  <text x="890" y="165" class="text">Persistência</text>
+  <text x="890" y="190" class="small">RDB / AOF</text>
+
+  <rect x="90" y="280" width="260" height="90" rx="12" class="box" />
+  <text x="120" y="315" class="text">Replicação</text>
+  <text x="120" y="340" class="small">Master → Réplicas</text>
+
+  <rect x="405" y="280" width="260" height="90" rx="12" class="box" />
+  <text x="435" y="315" class="text">Alta Dispon.</text>
+  <text x="435" y="340" class="small">Sentinel</text>
+
+  <rect x="720" y="280" width="300" height="90" rx="12" class="box" />
+  <text x="750" y="315" class="text">Escalabilidade</text>
+  <text x="750" y="340" class="small">Cluster & Sharding</text>
+
+  <line x1="340" y1="175" x2="435" y2="175" class="arrow" />
+  <line x1="765" y1="175" x2="860" y2="175" class="arrow" />
+  <line x1="260" y1="280" x2="435" y2="240" class="arrow" />
+  <line x1="535" y1="240" x2="535" y2="280" class="arrow" />
+  <line x1="765" y1="240" x2="870" y2="280" class="arrow" />
+
+  <text x="80" y="430" class="small">Foco do estudo: modelos de dados, durabilidade, HA e escala.</text>
+</svg>
